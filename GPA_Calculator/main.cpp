@@ -1,6 +1,4 @@
-#include <iostream>
-#include <string>
-#include "ReadClasses.h"
+#include "CalculatorProcesses.h"
 
 using namespace std;
 
