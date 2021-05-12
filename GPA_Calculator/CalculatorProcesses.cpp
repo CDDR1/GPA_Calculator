@@ -18,6 +18,8 @@ void ReadClasses() {
     string classGrade;
     int credits;
 
+    string blankSpace;
+
     //*********************************************************
     // Class grades must be entered as letters (A, A-, B+...)
     // and must be capitalized to be recognized by the program.
@@ -26,7 +28,11 @@ void ReadClasses() {
     for (int i = 0; i < numOfClasses; i++) {
 
         cout << "Enter class name: ";
-        cin >> className;
+        //*****************************************
+        // Gets the blank space left on the input.
+        //*****************************************
+        getline(cin, blankSpace);
+        getline(cin, className);
         cout << endl;
         classNames.push_back(className);
 
