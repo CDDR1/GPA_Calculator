@@ -3,6 +3,12 @@
 
 using namespace std;
 
+//*******************************************************************
+// This function asks the user to enter the number of classes 
+// that will be used to calculate the GPA and stores the information
+// in vectors.
+//*******************************************************************
+
 void ReadClasses() {
     int numOfClasses;
 
@@ -20,16 +26,11 @@ void ReadClasses() {
 
     string blankSpace;
 
-    //*********************************************************
-    // Class grades must be entered as letters (A, A-, B+...)
-    // and must be capitalized to be recognized by the program.
-    //*********************************************************
-
     for (int i = 0; i < numOfClasses; i++) {
 
         cout << "Enter class name: ";
         //*****************************************
-        // Gets the blank space left on the input.
+        // Gets the blank space left in the input.
         //*****************************************
         getline(cin, blankSpace);
         getline(cin, className);
@@ -55,9 +56,10 @@ void ReadClasses() {
     ShowReport(classNames, classCredits, classGrades, avgGPA);
 }
 
-
-
-
+//*******************************************************************
+// This function uses the letter grades from the grades vector and
+// stores a numeric grade for each letter into another vector.
+//*******************************************************************
 
 double CalculateGPA(vector<string> grades, vector<int> credits) {
     vector<double> qualityPts;
@@ -122,8 +124,11 @@ double CalculateGPA(vector<string> grades, vector<int> credits) {
     return avgGPA;
 }
 
-
-
+//*******************************************************************
+// This function displays a report containing the class, the credits
+// of each class and the grade for each class in letter format. It
+// also shows the average GPA.
+//*******************************************************************
 
 void ShowReport(vector<string> names, vector<int> credits, vector<string> grades, double GPA) {
     // Display report heading

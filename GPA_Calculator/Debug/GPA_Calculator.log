@@ -1,6 +1,6 @@
 ﻿  CalculatorProcesses.cpp
-C:\Users\Carlos Daniel\source\repos\GPA_Calculator\GPA_Calculator\CalculatorProcesses.cpp(67,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Carlos Daniel\source\repos\GPA_Calculator\GPA_Calculator\CalculatorProcesses.cpp(109,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Carlos Daniel\source\repos\GPA_Calculator\GPA_Calculator\CalculatorProcesses.cpp(71,23): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Carlos Daniel\source\repos\GPA_Calculator\GPA_Calculator\CalculatorProcesses.cpp(113,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Carlos Daniel\source\repos\GPA_Calculator\GPA_Calculator\CalculatorProcesses.cpp(131,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Carlos Daniel\source\repos\GPA_Calculator\GPA_Calculator\CalculatorProcesses.cpp(117,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Carlos Daniel\source\repos\GPA_Calculator\GPA_Calculator\CalculatorProcesses.cpp(138,23): warning C4018: '<': signed/unsigned mismatch
   GPA_Calculator.vcxproj -> C:\Users\Carlos Daniel\source\repos\GPA_Calculator\Debug\GPA_Calculator.exe
