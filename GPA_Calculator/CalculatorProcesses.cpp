@@ -69,6 +69,7 @@ double CalculateGPA(vector<string> grades, vector<int> credits) {
 
 
     for (int i = 0; i < grades.size(); i++) {
+
         if (grades[i] == "F") {
             numericGrades.push_back(0);
         }
